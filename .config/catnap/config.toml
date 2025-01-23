@@ -1,0 +1,46 @@
+# This is the configuration file for catnip.
+# Here you can configure the stat colors,
+# stat names, stat icons and more!
+#
+# https://github.com/iinsertNameHere/catnip
+
+##############################################
+##          FetchInfo stats Config          ##
+##############################################
+[stats]
+username  = {icon = " ", name = "Username", color = "(RD)"}
+hostname  = {icon = " ", name = "Hostname", color = "(RD)"}
+sep_names = "SEPARATOR"
+distro    = {icon = " ", name = "Distro", color = "(BE)"}
+kernel    = {icon = " ", name = "Kernel", color = "(MA)"}
+desktop   = {icon = " ", name = "DE / WM", color = "(MA)"}
+terminal  = {icon = " ", name = "Terminal", color = "(CN)"}
+shell     = {icon = " ", name = "Shell", color = "(CN)"}
+sep_hardware = "SEPARATOR"
+#cpu       = {icon = " ", name = "CPU", color = "(RD)"}
+# disk_0      = {icon = " ", name = "disk", color = "(GN)"}
+memory    = {icon = " ", name = "Memory", color = "(YW)"}
+#gpu       = {icon = "󱔐 ", name = "GPU", color = "(MA)"}      # WARNING: Resource Intensive
+uptime    = {icon = " ", name = "Uptime", color = "(BE)"}
+sep_color = "SEPARATOR"
+colors    = {icon = " ", name = "Color", color = "!DT!", symbol = ""}
+
+##############################################
+##               Misc Config                ##
+##############################################
+[misc]
+layout = "Inline" # [Inline, ArtOnTop, StatsOnTop]
+borderstyle = "line"
+
+[misc.figletLogos]
+enable = false
+color  = "(YW)"
+font   = "slant"
+margin = [0, 0, 0,]
+
+[misc.imageMode]
+enable = true
+path   = "/home/animu/.config/catnap/Purple_Heart.png" # Please use only absolute paths
+
+scale  = 30
+margin = [0, 0, 1]
