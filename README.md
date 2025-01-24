@@ -1,5 +1,5 @@
 # Animu's-Dotfiles
-Dotfiles for my Arch Linux Install. I'm new to licensing. These are the files for my own personal use and aren't intended for commercial applications. 
+Dotfiles for my Arch Linux Install. I'm new to licensing. These are the files for my own personal use and aren't intended for anything else. 
 I borrowed other's dotfiles to make these the way they are here. 
 Those licenses from the original projects apply here.
 
