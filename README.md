@@ -12,7 +12,7 @@ Hyprlock I altered: https://github.com/MrVivekRajan/Hyprlock-Styles
 
 Starship theme I altered: https://starship.rs/presets/tokyo-night
 
-Original Grub theme I altered "Distro Themes (Set): https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file
+Original Grub theme I altered "Distro Themes (Set)": https://github.com/jacksaur/Gorgeous-GRUB?tab=readme-ov-file
 
 Neptunia: Idea Factory / Compile Heart
 
