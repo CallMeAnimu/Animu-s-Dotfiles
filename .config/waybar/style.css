@@ -2,7 +2,8 @@
     border: 15px;
     border-radius: 15px;
     /*font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK;*/
-    font-family: Iosevka, FontAwesome, Noto Sans CJK;
+    /*font-family: Iosevka, FontAwesome, Noto Sans CJK;*/
+	font-family: Fira Code Nerd Font Mono;
     font-size: 20px;
     font-style: normal;
     min-height: 0;
@@ -11,19 +12,24 @@
 
 window#waybar {
     /* background: rgba(30, 30, 46, 0.5);*/
-	background: rgba(17, 12, 25, 0.9);
-    border-bottom: 1px solid #282828;
-    color: #f4d9e1;
+	/*background: rgba(17, 12, 25, 0.9);*/
+	/*background: rgba(252, 253, 255, 0.5);*/
+	background: rgba(97, 237, 253, 0.0);
+	padding: 15px;
+    border: 2px solid #282828;
+    color: #FCFDFF;
+	/*border-color: rgba(197, 237, 253, 0.9);*/
+	border-color: rgba(252, 253, 255, 0.0);
 }
 
 #workspaces {
-	background: rgba(30, 30, 46, 0.5);
+	background: rgba(30, 30, 46, 0.9);
 	margin: 5px 5px 5px 5px;
-  padding: 0px 5px 0px 5px;
+	padding: 10px;
 	border-radius: 15px;
-  border: solid 2px rgba(224, 114, 255, 0.5);  /* 50% transparent border */
-  font-weight: normal;
-  font-style: normal;
+	border: solid 2px rgba(224, 114, 255, 0.5);  /* 50% transparent border */
+	font-weight: normal;
+	font-style: normal;
 }
 #workspaces button {
     padding: 5px 5px;
@@ -32,23 +38,23 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: rgba(134, 160, 246, 0.7);
-    background-color: #3050FF;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(197, 237, 253, 0.9); 
     border-radius: 15px;
 }
 
 #workspaces button:hover {
-	background-color: #B75CFE;
+	background-color: rgba(211, 181, 248, 0.9);
 	color: black;
-	border-radius: 16px;
+	border-radius: 15px;
 }
 
 #custom-date, #clock, #battery, #pulseaudio, #network, #custom-randwall, #custom-launcher {
-	background: rgba(30, 30, 46, 0.5);
-	padding: 5px 5px 5px 5px;
+	background: rgba(30, 30, 46, 0.9);
+	padding: 10px;
 	margin: 5px 5px 5px 5px;
-  border-radius: 15px;
-  border: solid 2px rgba(224, 114, 255, 0.5);  /* 50% transparent border */
+	border-radius: 15px;
+	border: solid 2px rgba(224, 114, 255, 0.5);  /* 50% transparent border */
 }
 
 #custom-date {
@@ -67,26 +73,30 @@ window#waybar {
 }
 
 #tray {
-    background: rgba(30,30, 46, 0.5);
-    margin: 5px 5px 5px 5px;
+    background: rgba(30,30, 46, 0.9);
+    margin: 5px;
     border-radius: 15px;
-    padding: 0px 5px;
+    padding: 10px;
     /*border-right: solid 1px #282738;*/
 	border: solid 2px rgba(224, 114, 255, 0.5);  /* 50% transparent border */ 
 }
 
 #clock {
-    background-color: rgba(30, 30, 46, 0.5); /* Semi-transparent background */
+    background-color: rgba(30, 30, 46, 0.9); /* Semi-transparent background */
     border-radius: 15px;                  /* Rounded edges */
-    padding: 5px 10px;                    /* Padding around the clock */
+    padding: 10px;                    /* Padding around the clock */
     font-family: "Fira Code Nerd Font Mono";     /* Custom font */
     font-size: 20px;                      /* Font size */
-    color: #ffffff;                       /* White text */
+    color: #FCFDFF;
     transition: background-color 0.3s ease-in-out; /* Smooth background transition */
 }
 
 #clock:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+    background-color: rgba(224, 114, 255, 0.5);  /* 50% transparent border */
+	border: solid 2px rgba(30, 30, 46, 0.9);
+	color: rgba(0,0,0,1);
+	
+	
 }
 
 
@@ -123,8 +133,8 @@ window#waybar {
 }
 
 #pulseaudio {
-    color: #f4d9e1;
-    border-radius: 8px;
+    color: #FCFDFF;
+    border-radius: 15px;
     margin-left: 0px;
 }
 
@@ -174,7 +184,7 @@ window#waybar {
 }
 
 #custom-playerlabel {
-    background: rgba(30, 30, 46, 0.5);
+    background: rgba(30, 30, 46, 0.9);
     padding-left: 10px;
     padding-right: 15px;
     border-radius: 16px;
