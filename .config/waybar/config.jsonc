@@ -3,8 +3,12 @@
     "position": "top",
     "modules-left": ["hyprland/workspaces", "custom/playerlabel"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "network", "tray"],
-	"margin-top": +5,
+    "modules-right": ["tray", "pulseaudio",],
+	"margin-top": +15,
+	"margin-left": +10,
+	"margin-right": +10,
+	"margin-bottom": 0,
+ 
     "audio": {
         "format": " {volume}% {mute}",
         "format-muted": " MUTE",
@@ -14,11 +18,11 @@
     },
 
     "clock": {
-		"format": " {:%H:%M}",
+		"format": "{:%I時%M分}",
 		"tooltip": "true",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
- 		"format-alt": " {:%d/%m}",
-       	"on-click": "gnome-calendar"
+ 		"format-alt": "{:%y年%m月%d日 %I時%M分}",
+       	/*"on-click": "gnome-calendar"*/
     },
 
 	"pulseaudio": {
@@ -31,7 +35,7 @@
     "on-scroll-up": "bash ~/.scripts/volume_up.sh",
     "on-scroll-down": "bash ~/.scripts/volume_down.sh",
     "scroll-step": 5,
-		"on-click-right": "pavucontrol"
+		"on-click-right": "pavucontrol",
 },
 
     "hyprland/workspaces": {
@@ -54,6 +58,7 @@
 	  "9": "九",
 	  "10": "十",
       "sort-by-number": true
+	
 	}
 },
 
@@ -110,7 +115,7 @@
 	},
 
   	"tray": {
-        "icon-size": 24
+        "icon-size": 24,
     }
 }
 
