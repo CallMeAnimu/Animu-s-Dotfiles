@@ -51,7 +51,7 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 # Aliases End
 
 # Autoruns
-set -o vi
+#set -o vi
 ~/.scripts/bash_start.sh
 
 # Legacy Prompt
